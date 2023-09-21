@@ -1,3 +1,15 @@
+<?php
+
+function url(){
+    return sprintf(
+      "%s://%s%s",
+      isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
+      $_SERVER['SERVER_NAME'],
+      $_SERVER['REQUEST_URI']
+    );
+  }
+  
+  ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -55,11 +67,11 @@
     </div>
     <!-- =========== End of Loader ============ -->
 
-    <main class="main hidden">
+    <main class="main">
         <!-- =========== Start of Navigation (main menu) ============ -->
         <header class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg navbar-dark">
             <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="<?php echo url(); ?>">
                     <img class="navbar-brand__regular" src="img/brand-logo-white.png" alt="brand-logo">
                     <img class="navbar-brand__sticky" src="img/brand-logo-white.png" alt="sticky brand-logo">
                 </a>
@@ -81,21 +93,24 @@
                                 <a class="nav-link" href="#beneficios">Beneficios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#clientes">Clientes</a>
+                                <a class="nav-link" href="#pasos">¿Cómo empiezo a facturar?</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
                             </li>
+                            <!--s<li class="nav-item">
+                                <a class="nav-link" href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación">WhatsApp</a>
+                            </li>-->
                         </ul>
                         <!-- end of nav menu items -->
                     </nav>
                 </div>
                 <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0">
                     <div class="input-group d-flex">
-                    <button class="btn btn-size--md btn-hover--3d btn-bg--cta--5" type="submit"><span
+                    <button class="btn btn-size--sm btn-hover--3d btn-bg--cta--5" type="submit"><span
                         class="btn__text">Prueba la demo</span></button>
                     </div>
-                    <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--md btn-border color--green btn-hover--3d d-none d-sm-inline-flex">
+                    <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--sm btn-border color--green btn-hover--3d d-none d-sm-inline-flex">
                         <span class="btn__text font-w--500">WhatsApp</span>
                     </a>
                 </div>
@@ -119,7 +134,7 @@
             <!-- end of bottom svg shape -->
 
             <div class="container mb-10">
-                <div class="row flex-column-reverse flex-lg-row align-items-center mb-10 mb-lg-5">
+                <div class="row flex-column-reverse flex-lg-row align-items-center mb-10 mb-lg-5 switchable switchable--reverse">
                     <div class="col-12 col-md-10 col-lg-7 mx-auto mx-lg-0 text-center text-lg-left z-index3">
                         <div class="hero-content reveal">
                             <h1 class="hero__title color--white h2-font font-w--700 mb-2">Faturación Electrónica <br> para tu negocio</h1>
@@ -128,9 +143,13 @@
                         </div>
                     </div>
                     <!-- end of col -->
-                    <div class="col-12 col-lg-5 mt-6 mt-lg-0 mb-4 mb-lg-0 pl-lg-8  hero__image z-index3 reveal">
-                        <picture><img src="img/165.png" alt="hero-image" class="img-fluid"></picture>
+                    <div class="col-12 col-lg-5 hero__image z-index3 reveal text-sm-center">
+                        <picture><img src="img/166.png" alt="hero-image" class="img-fluid"></picture>
                     </div>
+                    <!--<div class="col-12 col-lg-4 smb-40 mb-lg-0 text-sm-center mb-1 reveal">
+                    <span class="switchable__image">
+                        <img class="imsg-fluid" src="img/166.png" alt="device">
+                    </span>-->
                     <!-- end of col -->
                 </div>
                 <!-- end of row -->
@@ -210,7 +229,7 @@
         <!-- =========== End of Core Feautes ============ -->
 
         <!-- =========== Start of Steps ============ -->
-        <section class="space--bottom steps--v1 pt-10 bg-color--primary jsElement" data-pull="-100">
+        <section class="space steps--v1 pt-10 bg-color--primary jsElement" data-pull="-100" id="pasos">
             <div class="container">
                 <div class="row space--top">
                     <div class="col-12 col-md-5 col-xl-4 offset-xl-1 mb-5 mb-lg-0 reveal">
@@ -274,12 +293,12 @@
         <!-- =========== End of Steps ============ -->
 
         <!-- =========== Start of Benefits and CTA ============ -->
-        <section class="space--bottom steps--v1 pt-10 bg-color--primary-light--1" id="funcionalidades">
+        <section class="space--top steps--v1 pt-10 bg-color--primary-light--1" id="funcionalidades">
             <!-- end of benefits area -->
             <div class="switchable pt-4 d-lg-flex align-items-md-center">
                 <div class="col-12 col-lg-6 mb-40 mb-lg-0 text-center mb-3 reveal">
                     <picture class="switchable__image">
-                        <img src="img/device-mockup.png" alt="image" class="img-fluid">
+                        <img src="img/device-mockup.webp" alt="image" class="img-fluid">
                     </picture>
                 </div>
                 <!-- end of device image -->
@@ -331,107 +350,50 @@
         </section>
         <!-- =========== End of Benefits and CTA ============ -->
 
-        
+        <!-- =========== Start of footer height emulator============ -->
+        <!-- this height emulator helps to calculate the fixed footer height  -->
+        <div class="height-emulator d-none d-lg-block"></div>
+        <!-- =========== End of footer height emulator============ -->
 
-        <!-- =========== Start of Footer and Newsletter ============ -->
-        <section class="bg-color--primary hidden">
-            <div class="svg-shape--top w-100">
-                <img src="img/layout/wave-7.svg" alt="wave" class="svg w-100">
-            </div>
-            <!-- end of svg shape bottom -->
-
-            <div class="space--bottom position-relative my-10">
+        <!-- =========== Start of Footer ============ -->
+        <footer class="footer footer--fixed section--dark bg-color--dark--3">
+            <div class="py-6">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-12 col-sm-8 col-lg-5 pl-lg-0 mx-auto">
-                            <!--
-                            <div class="newsletter-form form--v2 border--around bg-white rounded--10 box-shadow--3 text-center px-3 pb-5">
-                                
-                                <div class="pt-4 pb-5">
-                                    <h2 class="h3-font mb-1">Subscribe our newsletter</h2>
-                                    <p class="text-color--400">By subscribing our newsletter you will know all the latest updates about blockchain from us.</p>
-                                </div>
-                                <form action="#" class="form">
-                                    <div class="input-group d-flex">
-                                        <input type="email" class="form-control" placeholder="Enter your email" required>
-                                        <button class="btn btn-hover--splash btn-bg--cta--3" type="submit"><span class="btn__text"><i class="icon icon-arrow-right"></i></span></button>
-                                    </div>
-                                </form>
-                            </div>
-                                 -->
-                        </div>
-                        <!-- end of newsletter col -->
-                    </div>
-                    <!-- end of newsletter row -->
-                </div>
-                <!-- end of newletter container -->
-            </div>
-            <!-- end of newletter Area -->
-            <footer class="section--dark footer footer--v1 position-relative" style="margin-top: 11.25rem !important;">
-                <div class="container text-center">
                     <div class="row">
-                        <div class="col-12 mb-2">
+                        <div class="col-12 col-md-10 col-lg-6 col-xl-5 mx-auto mb-4 mb-lg-0 text-center text-lg-left">
                             <span class="mb-2">
-                                <a href="/"><img src="img/brand-logo-white.png" alt="brand-logo"></a>
-                            </span><br />
-                            <span class="mb-2">Hecho con amor por Creatividad Web</span>
-                            <div class="widget widget-nav">
-                                <ul>
-                                    <!--<li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms of Use</a></li>-->
-                                    <li><a href="#beneficios">Beneficios</a></li>
-                                    <li><a href="#clientes">Clientes</a></li>
-                                    <li><a href="#funcionalidades">Funcionalidades</a></li>
-                                </ul>
-                            </div>
-                            <!-- end of widget -->
+                                <a href="<?php echo url(); ?>"><img src="img/brand-logo-white.png" alt="brand-logo"></a>
+                            </span>
+                            <p class="mb-2 text-color--300">Hecho con amor por Creatividad Web</p>
+                            <ul class="icon-group icon-rounded icon-rounded-color--gray justify-content-center justify-content-lg-start mb-2 mb-lg-2">
+                                <li><a href="#" class="color--white"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="color--white"><i class="fab fa-telegram-plane"></i></a></li>
+                                <li><a href="#" class="color--white"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#" class="color--white"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
                         </div>
                         <!-- end of widget col -->
-                    </div>
-                    <!-- end of widget row -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="footer-border py-3">
-                                <ul class="icon-group icon--2x justify-content-center mb-0">
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-medium-m"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-telegram-plane"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-github"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-youtube"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-pinterest"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-instagram"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-gitter"></i></a></li>
-                                    <li class="p-2"><a href="#" class="color--white"><i class="fab fa-discord"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- end of icon group -->
+
+                        <div class="col-12 col-lg-6 ml-lg-auto text-center text-lg-right">
+                            <p>¡Solicite una demo!</p>
+                            <h3 class="font-size--30 font-w--700 mb-2"><a href="tel:+51991615821" class="color--white" tabindex="0">+51 991615821</a></h3>
+                            <!-- end of social icon -->
+                            <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-lg-end remove-space--x">
+                                <li class="mx-2 ml-lg-2"><a href="#" class="body-font color--white">Términos y condiciones</a></li>
+                            </ul>
+                            <!-- end of nav item -->
+                            <p class="color--white font-size--14">FacturaWeb© <?php echo date("Y"); ?>. Todos los derechos reservados.</p>
+
                         </div>
-                        <!-- end of icon group col -->
+                        <!-- end of col -->
                     </div>
-                    <!-- end of icon group row -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="footer-bottom pt-5 pb-3 d-lg-flex justify-content-between">
-                                <p class="mb-1">FacturaWeb© 2023. Todos los derechos reservados</p>
-                                <a class="mb-2 mb-lg-1" href="mailto:soporteweb@creatividad-web.com">soporteweb@creatividad-web.com</a>
-                                <p></p>
-                                <ul class="footer-languages list-unstyled d-flex justify-content-center">
-                                    <li><a href="#">Términos y condiciones</a></li>
-                                    <li><a href="#">Política de privacidad</a></li>
-                                </ul>
-                            </div>
-                            <!-- footer bottom -->
-                        </div>
-                        <!-- end of bottom footer col -->
-                    </div>
-                    <!-- end of bottom footer row -->
+                    <!-- end of row -->
                 </div>
-                <!-- end of container -->
-            </footer>
-        </section>
-        <!-- =========== End of Footer and Newsletter ============ -->
+                <!-- end of main footer container -->
+            </div>
+            <!-- end of main footer area -->
+        </footer>
+        <!-- =========== End of Footer ============ -->
     </main>
     <script src="js/plugins.min.js"></script>
     <script src="js/app.js"></script>

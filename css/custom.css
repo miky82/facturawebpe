@@ -114,3 +114,46 @@ body.boxed-layout .main, body.boxed-layout .navbar {
   height: 1.75rem;
   font-size: 1.20em;
 }
+
+@media only screen and (min-width: 992px) {
+  .hero {
+    padding-top: 7rem;
+    padding-bottom: 7.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .hero {
+    padding-bottom: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1420px){
+  .navbar .navbar-nav .nav-link {
+    font-size: 1srem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .hero--full {
+    min-height: 85vh;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .list-md-none{
+    list-style-type: none;
+  }
+}
+
+@media only screen and (max-width: 1199px){
+  .navbar-brand {
+    max-width: 180px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1190px;
+  }
+}
