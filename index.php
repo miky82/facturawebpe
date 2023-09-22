@@ -335,7 +335,7 @@ function url(){
                                 <div class="button-group flex-column flex-sm-row align-items-center reveal">
                                     <div class="d-flex flex-column align-items-center mb-2">
                                         <a href="#" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
-                                            <span class="btn__text">Prueba la demo con tu RUC</span>
+                                            <span class="btn__text">Solicita una demostración</span>
                                         </a>
                                     </div>
                                 </div>
