@@ -120,7 +120,7 @@ function url(){
                     <button class="btn btn-size--sm btn-hover--3d btn-bg--cta--5" type="submit"><span
                         class="btn__text">Prueba la demo</span></button>
                     </div>
-                    <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--sm btn-border color--green btn-hover--3d d-none d-sm-inline-flex">
+                    <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--sm btn-border color--green btn-hover--3d d-md-inline-flex">
                         <span class="btn__text font-w--500">WhatsApp</span>
                     </a>
                 </div>
@@ -153,7 +153,7 @@ function url(){
                         </div>
                     </div>
                     <!-- end of col -->
-                    <div class="col-12 col-lg-5 hero__image z-index3 reveal text-sm-center">
+                    <div class="col-12 col-lg-5 pt-3 pt-lg-1 hero__image z-index3 reveal text-sm-center">
                         <picture><img src="img/166.png" alt="hero-image" class="img-fluid"></picture>
                     </div>
                     <!--<div class="col-12 col-lg-4 smb-40 mb-lg-0 text-sm-center mb-1 reveal">
@@ -290,7 +290,7 @@ function url(){
                             <!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">¡Emite tu comprobante!</h3>
-                                <p class="opacity--80">Ya puedes emitir tus comprobantes de pago a la SUNAT validando el envío de forma rápida y segura. Generado reportes para tu negocio.</p>
+                                <p class="opacity--80">Ya puedes emitir tus comprobantes de pago a la SUNAT validando el envío de forma rápida y segura. Generando reportes para tu negocio.</p>
                             </div>
                             <!-- end of content -->
                         </div>
