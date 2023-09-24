@@ -115,14 +115,16 @@ function url(){
                         <!-- end of nav menu items -->
                     </nav>
                 </div>
-                <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0">
-                    <div class="input-group d-flex">
+                <div class="d-flex align-items-center ml-lg-1 ml-xl-2 mr-5 mr-sm-6 m-lg-0 align-items-center">
+                    <!--<div class="input-group d-flex">
                     <button class="btn btn-size--sm btn-hover--3d btn-bg--cta--5" type="submit"><span
-                        class="btn__text">Prueba la demo</span></button>
+                        class="btn__text">Solicita la demo</span></button>
+                    </div>-->
+                    <div class="pl-1 pl-md-0">
+                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--sm btn-border btn-bg--cta--5 btn-hover--3d d-md-inline-flex">
+                            <span class="btn__text font-w--500">Solicita la demo por WhatsApp</span>
+                        </a>
                     </div>
-                    <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--sm btn-border color--green btn-hover--3d d-md-inline-flex">
-                        <span class="btn__text font-w--500">WhatsApp</span>
-                    </a>
                 </div>
                 <!-- end of nav CTA button -->
             </div>
@@ -153,7 +155,7 @@ function url(){
                         </div>
                     </div>
                     <!-- end of col -->
-                    <div class="col-12 col-lg-5 pt-3 pt-lg-1 hero__image z-index3 reveal text-sm-center">
+                    <div class="col-12 col-lg-5 pt-6 pt-lg-1 hero__image z-index3 reveal text-sm-center">
                         <picture><img src="img/166.png" alt="hero-image" class="img-fluid"></picture>
                     </div>
                     <!--<div class="col-12 col-lg-4 smb-40 mb-lg-0 text-sm-center mb-1 reveal">
@@ -227,7 +229,7 @@ function url(){
                         </div>
                         <!-- end of single item col -->
                         <div class="col-12 col-md-4 text-center mb-2">
-                            <span class="font-size--48 color--primary">1,000+ </span>
+                            <span class="font-size--48 color--primary">2,500+ </span>
                             <p>Horas de soporte</p>
                         </div>
                         <!-- end of single item col -->
@@ -262,7 +264,7 @@ function url(){
                             <!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">Crear una cuenta</h3>
-                                <p class="opacity--80"><a href="#" class="text-color--cta--5">Registra el RUC</a> de tu negocio, sin instalar nada. Si ya te registraste ingresa aquí<a href="#" class="text-color--cta--5">Inicia sesión</a>.</p>
+                                <p class="opacity--80"><a href="#" class="text-color--cta--5">Registra el RUC</a> de tu negocio, sin instalar nada. Si ya te registraste ingresa aquí <a href="#" class="text-color--cta--5">Inicia sesión</a>.</p>
                             </div>
                             <!-- end of content -->
                         </div>
@@ -344,8 +346,8 @@ function url(){
                                 <!-- end of main content -->
                                 <div class="button-group flex-column flex-sm-row align-items-center reveal">
                                     <div class="d-flex flex-column align-items-center mb-2">
-                                        <a href="#" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
-                                            <span class="btn__text">Solicita una demostración</span>
+                                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
+                                            <span class="btn__text">Solicita la demo</span>
                                         </a>
                                     </div>
                                 </div>
