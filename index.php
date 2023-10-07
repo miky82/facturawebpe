@@ -370,8 +370,11 @@ function url(){
                                 <!-- end of main content -->
                                 <div class="button-group flex-column flex-sm-row align-items-center reveal">
                                     <div class="d-flex flex-column align-items-center mb-2">
-                                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20sistema%20de%20facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
+                                        <!--<a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20sistema%20de%20facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
                                             <span class="btn__text">Solicita la demo</span>
+                                        </a>-->
+                                        <a href="https://app.facturaweb.pe/signup" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
+                                            <span class="btn__text">PRUEBA GRATIS</span>
                                         </a>
                                     </div>
                                 </div>
