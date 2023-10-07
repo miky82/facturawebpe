@@ -109,7 +109,7 @@ function url(){
                                 <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
                             </li>
                             <!--s<li class="nav-item">
-                                <a class="nav-link" href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación">WhatsApp</a>
+                                <a class="nav-link" href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%20facturación">WhatsApp</a>
                             </li>-->
                         </ul>
                         <!-- end of nav menu items -->
@@ -121,7 +121,7 @@ function url(){
                         class="btn__text">Solicita la demo</span></button>
                     </div>-->
                     <div class="pl-1 pl-md-0">
-                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-size--sm btn-border btn-bg--cta--5 btn-hover--3d d-md-inline-flex">
+                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%20facturación" class="btn btn-size--sm btn-border btn-bg--cta--5 btn-hover--3d d-md-inline-flex">
                             <span class="btn__text font-w--500">Solicita la demo por WhatsApp</span>
                         </a>
                     </div>
@@ -264,7 +264,7 @@ function url(){
                             <!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">Crear una cuenta</h3>
-                                <p class="opacity--80"><a href="#" class="text-color--cta--5">Registra el RUC</a> de tu negocio, sin instalar nada. Si ya te registraste ingresa aquí <a href="#" class="text-color--cta--5">Inicia sesión</a>.</p>
+                                <p class="opacity--80"><a href="#" class="text-color--cta--5">Registra el RUC</a> de tu negocio, sin instalar nada. Si ya te registraste ingresa aquí <a href="http://app.facturaweb.pe/" class="text-color--cta--5">Inicia sesión</a>.</p>
                             </div>
                             <!-- end of content -->
                         </div>
@@ -278,7 +278,7 @@ function url(){
                             <!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">Personaliza tu comprobante</h3>
-                                <p class="opacity--80">Sube el logo de tu negocio para que aparezca en tus comprobantes impresas en fisíco o en formato PDF.</p>
+                                <p class="opacity--80">Sube el logo de tu negocio para que aparezca en tus comprobantes.</p>
                             </div>
                             <!-- end of content -->
                         </div>
@@ -305,7 +305,7 @@ function url(){
         <!-- =========== End of Steps ============ -->
 
         <!-- =========== Start of Benefits and CTA ============ -->
-        <section class="space--top steps--v1 pt-10 bg-color--primary-light--1" id="funcionalidades">
+        <section class="space steps--v1 pt-10 bg-color--primary-light--1" id="funcionalidades">
             <!-- end of benefits area -->
             <div class="switchable pt-4 d-lg-flex align-items-md-center">
                 <div class="col-12 col-lg-6 mb-40 mb-lg-0 text-center mb-3 reveal">
@@ -346,7 +346,7 @@ function url(){
                                 <!-- end of main content -->
                                 <div class="button-group flex-column flex-sm-row align-items-center reveal">
                                     <div class="d-flex flex-column align-items-center mb-2">
-                                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
+                                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%20facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
                                             <span class="btn__text">Solicita la demo</span>
                                         </a>
                                     </div>
@@ -361,6 +361,258 @@ function url(){
             <!-- end of App CTA area -->
         </section>
         <!-- =========== End of Benefits and CTA ============ -->
+
+        <!-- =========== Start of FAQ ============ -->
+        <section class="space d-flex align-items-center" id="preguntas-frecuentes">
+            <div class="background-holder background--cover">
+                <img src="img/image-1.jpg" alt="image" class="background-image-holder">
+            </div>
+            <!-- end of backgound image -->
+            <div class="background-holder bg-color--primary opacity--80"></div>
+            <!-- end of overlay backgound color-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8 mx-auto text-center">
+                        <h1 class="h2-font color--white">Preguntas Frecuentes</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========== End of FAQ ============ -->
+
+        <!-- =========== Start of FAQ Body ============ -->
+        <section class="space bg-color--primary-light--1">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6 sidebar">
+                        <!--<div class="sticky-top mb-4 z-index1">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action font-size--18" data-scroll-nav="1"><span>Getting Started</span></a>
+                                <a href="#" class="list-group-item list-group-item-action font-size--18" data-scroll-nav="2"><span>Pricing</span></a>
+                                <a href="#" class="list-group-item list-group-item-action font-size--18" data-scroll-nav="3"><span>Customization</span></a>
+                            </div>
+                        </div>-->
+                        <div class="article-entry accordion accordion--v2 remove-space--bottom" id="accordion1">
+
+                            <div class="mb-6" data-scroll-index="3">
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Qué es la facturación electrónica?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse1" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>La factura electrónica es la versión digital de una factura física tradicional, la cual es emitida por medio de un sistema de facturación que cumple con ciertos requisitos estipulados por la SUNAT; y que además ayuda a automatizar el proceso de emisión de comprobantes, agilizando procesos internos y ahorrando muchísimo tiempo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Para qué sirve la facturación electrónica?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse2" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>La facturación electrónica sirve para sustentar y validar las transacciones comerciales que se generan entre empresas y clientes. Además, gracias a la digitalización de comprobantes, con este tipo de facturación puedes simplificar procesos y reducir costos asociados a la emisión y almacenamiento de facturas en papel.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Es obligatorio emitir factura electrónica?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse3" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Sí, según la Resolución de Superintendencia N° 128-2021/Sunat, la emisión de factura electrónica ya es obligatoria en todo el Perú.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                            </div>
+                            <!-- end of Single group of accordions -->
+
+                            <div class="mb-6" data-scroll-index="2">
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Qué es el sistema de Facturación?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse4" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>FacturaWeb es una solución que te permite simplificar la tarea de emitir facturas, boletas, proformas, etc. en tu negocio con tu propio logo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link bg-white" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Qué beneficios tengo con FacturaWeb?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse5" class="collapse show" data-parent="#accordion1">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Con FacturaWeb tendrás:
+                                                <ul class="text-color--400"><li>Ahorro de tiempo al emitir tus facturas, boletas, guías, entre otros de forma automática</li>
+                                                <li>Mayor tranquilidad al cumplir fácil con la SUNAT</li>
+                                                <li>Eficiencia en procesos al reducir errores humanos</li>
+                                                <li>Ahorro de dinero al reducir costos de impresión y almacenamiento</li>
+                                                <li>Puedes emitir GRATIS Notas de venta, tickets, proformas y orden de pagos.</li>
+                                                </ul></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Cómo activo mi empresa para facturar con el sistema?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse6" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Registrar tu empresa con un RUC 10 con negocio o RUC 20 activo, además tener acceso a su clave sol SUNAT. Luego enviarnos tu logo, en caso no lo tuvieras, te facilitamos uno. Finalmente te guiamos como configurar con tu usuario y clave SOL la conexión con nuestro sistema.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                            </div>
+                            <!-- end of Single group of accordions -->
+                        </div>
+                    </div>
+                    <!-- end of sidebar -->
+                    <div class="col-12 col-md-6">
+                        <div class="article-entry accordion accordion--v2 remove-space--bottom" id="accordion2">
+                            <div class="mb-6" data-scroll-index="1">
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Puedo administrar multiples empresas en mi cuenta?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse7" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Sí, con su correo electrónico puede registrar múltiples empresas (cada empresa con su propio plan) </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Puedo personalizar mis comprobantes?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse8" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Sí, puede agregar su logo, información de su empresa, cuentas bancarias, teléfonos, etc. Así sus comprobantes proyectarán la identidad de su empresa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Cuál es el precio del sistema?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse9" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Contamos con el plan mensual de S/ 20.00 y un plan anual de S/ 240.00, configurados de acuerdo a las necesidades de su empresa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                            </div>
+                            <!-- end of Single group of accordions -->
+
+                            <div class="mb-6" data-scroll-index="2">
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Las boletas o facturas se envían a SUNAT?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse10" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Sí, nuestra plataforma está automatizada para que todos sus comprobantes sean enviados y verificados dentro del plazo establecido por SUNAT.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Qué necesito para instalar el sistema?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse11" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>El sistema no necesita instalación, solo es necesario ingresar a www.facturaweb.pe mediante su navegador.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Puedo emitir solo boletas?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse12" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Usted elige que documentos electrónicos emitir (Boletas, Facturas, etc), teniendo presente el régimen en el que se encuentra.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                            </div>
+                            <!-- end of Single group of accordions -->
+
+                            <div class="mb-6" data-scroll-index="3">
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Puedo imprimir mis boletas?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse13" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Sí, se pueden imprimir los comprobantes en diferentes formatos (A4, A5, ticket), enviar por correo y directamente por whatsApp.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                        <span class="font-size--18 text-color--700 font-w--500">¿Puedo agregar mi logo?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse14" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>Sí, puede personalizar su comprobante agregando su logo, además puede agregar número celular, redes sociales, cuentas bancarias, etc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                                <div class="card mb-1">
+                                    <button class="btn btn-header btn-link collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                        <span class="font-size--18 text-color--700 font-w--500">Si ya emití facturas con SUNAT ¿Qué sucede con mi serie?</span>
+                                        <i class="icon icon-up-arrow"></i>
+                                    </button>
+                                    <div id="collapse15" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body bg-white pl-3">
+                                            <p>El sistema se configura con una serie distinta (F001), y la numeración inicia desde usted nos indique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end of single accordion-->
+                            </div>
+                            <!-- end of Single group of accordions -->
+                        </div>
+                        <!-- end of FAQ row -->
+                    </div>
+                    <!-- end of accordions area col -->
+                </div>
+                <!-- end of accordions area row -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- =========== End of FAQ Body ============ -->
 
         <!-- =========== Start of footer height emulator============ -->
         <!-- this height emulator helps to calculate the fixed footer height  -->
@@ -378,7 +630,7 @@ function url(){
                             </span>
                             <p class="mb-2 text-color--300">Hecho con amor por Creatividad Web</p>
                             <ul class="icon-group icon-rounded icon-rounded-color--gray justify-content-center justify-content-lg-start mb-2 mb-lg-2">
-                                <li><a href="#" class="color--white"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/facturawebpe" class="color--white"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#" class="color--white"><i class="fab fa-telegram-plane"></i></a></li>
                                 <li><a href="#" class="color--white"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="#" class="color--white"><i class="fab fa-youtube"></i></a></li>
