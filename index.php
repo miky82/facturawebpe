@@ -53,6 +53,16 @@ function url(){
     <!-- Your CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CC13PL86WG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CC13PL86WG');
+    </script>
+
 </head>
 
 <body class="theme-gradient-7" data-spy="scroll" data-target="#navbar-nav" data-animation="false" data-appearance="light">
