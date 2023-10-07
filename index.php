@@ -130,9 +130,10 @@ function url(){
                     <button class="btn btn-size--sm btn-hover--3d btn-bg--cta--5" type="submit"><span
                         class="btn__text">Solicita la demo</span></button>
                     </div>-->
-                    <div class="pl-1 pl-md-0">
-                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%20facturación" class="btn btn-size--sm btn-border btn-bg--cta--5 btn-hover--3d d-md-inline-flex">
-                            <span class="btn__text font-w--500">Solicita la demo por WhatsApp</span>
+                    <div class="pl-1 pl-md-0 icon-fill--wide">
+                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%20facturación" class="btn btn-size--sm  btn-bg--cta--2 btn-hover--3d d-md-inline-flex">
+                            <span class="t-icon__brand-icon h4-font "><i class="fab fa-whatsapp"></i></span>    
+                            <span class="btn__text font-w--500">WhatsApp</span>
                         </a>
                     </div>
                 </div>
@@ -166,7 +167,7 @@ function url(){
                     </div>
                     <!-- end of col -->
                     <div class="col-12 col-lg-5 pt-6 pt-lg-1 hero__image z-index3 reveal text-sm-center">
-                        <picture><img src="img/166.png" alt="hero-image" class="img-fluid"></picture>
+                    <a href="https://app.facturaweb.pe/signup" ><picture><img src="img/166.svg" alt="hero-image" class="img-fluid"></picture></a>
                     </div>
                     <!--<div class="col-12 col-lg-4 smb-40 mb-lg-0 text-sm-center mb-1 reveal">
                     <span class="switchable__image">
@@ -186,7 +187,7 @@ function url(){
                     <div class="row">
                         <div class="col-12 col-sm-9 col-lg-10 mb-4 mb-lg-4 mx-auto text-center reveal">
                             <h2 class="mb-2 h3-font font-w--700"><span class="text-color--cta--5">Beneficios</span> del sistema FacturaWeb</h2>
-                            <!--<a href="#" class="btn btn-size--md btn-bg--cta--5 btn-hover--3d"><span class="btn__text">Create Account</span></a>-->
+                            <a href="https://app.facturaweb.pe/signup" class="btn btn-size--md btn-bg--cta--5 btn-hover--3d"><span class="btn__text">Crea tu cuenta gratis</span></a>
                         </div>
                     </div>
                     <div class="row justify-content-between border--bottom mb-3 pb-lg-1 text-lg-left">
@@ -204,7 +205,7 @@ function url(){
                                 <img src="img/exchange-02.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h5-font font-w--500 mb-1">Precios accesibles</h3>
-                            <p>Elige los cómodos pagos mensuales o pago anual con descuentos.
+                            <p>¡Inicia GRATIS hasta fin de mes! Luego elige cómodos pagos mensuales o pago anual.
                             </p>
                         </div>
                         <!-- end of single item col -->
@@ -213,7 +214,7 @@ function url(){
                                 <img src="img/exchange-03.svg" alt="exchange-icon">
                             </span>
                             <h3 class="h5-font font-w--500 mb-1">Personaliza tus comprobantes</h3>
-                            <p>Emite tus comprobantes electrónicos con el logotipo y colores de tu empresa.
+                            <p>Emite los comprobantes con tu logo y configurados de acuerdo a tu negocio.
                             </p>
                         </div>
                         <!-- end of single item col -->
@@ -257,7 +258,7 @@ function url(){
                     <div class="col-12 col-md-5 col-xl-4 offset-xl-1 mb-5 mb-lg-0 reveal">
                         <div>
                             <h2 class="h3-font font-w--700 mb-2">Empieza a facturar con estos simples pasos</h2>
-                            <p class="opacity--60">Emite comprobantes electrónicos con nuestro sistema en línea de forma inmediata. Deberás brindarnos tu clave SOL de la SUNAT para registrarte.</p>
+                            <p class="opacity--60">Emite comprobantes electrónicos con nuestro sistema en línea de forma inmediata.</p>
                         </div>
                         <div class="ml-lg-10 d-none d-md-inline-block">
                             <img src="img/layout/steps-arrow.svg" alt="arrow" class="svg svg-shape--default opacity--10">
@@ -274,7 +275,7 @@ function url(){
                             <!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">Crear una cuenta</h3>
-                                <p class="opacity--80"><a href="#" class="text-color--cta--5">Registra el RUC</a> de tu negocio, sin instalar nada. Si ya te registraste ingresa aquí <a href="http://app.facturaweb.pe/" class="text-color--cta--5">Inicia sesión</a>.</p>
+                                <p class="opacity--80"><a href="https://app.facturaweb.pe/signup" class="text-color--cta--5">Regístrate con tu correo</a>, sin instalar nada. Si ya te registraste ingresa aquí <a href="http://app.facturaweb.pe/" class="text-color--cta--5">Inicia sesión</a>.</p>
                             </div>
                             <!-- end of content -->
                         </div>
@@ -287,8 +288,8 @@ function url(){
                             </div>
                             <!-- end of icon -->
                             <div class="position-relative">
-                                <h3 class="h4-font font-w--600 mb-1 step__title">Personaliza tu comprobante</h3>
-                                <p class="opacity--80">Sube el logo de tu negocio para que aparezca en tus comprobantes.</p>
+                                <h3 class="h4-font font-w--600 mb-1 step__title">Personaliza tu negocio</h3>
+                                <p class="opacity--80">Sube tu logo para que aparezca en tus comprobantes y configúralo de acuerdo al rubro de tu negocio.</p>
                             </div>
                             <!-- end of content -->
                         </div>
@@ -329,34 +330,34 @@ function url(){
                         <div class="row">
                             <div class="col-12 ml-md-auto">
                                 <div class="mb-4 text-center text-lg-left reveal">
-                                    <h2 class="h3-font font-w--600 mb-1">Funcionalidades de nuestro sistema</h2>
+                                    <h2 class="h3-font font-w--600 mb-1">Funcionalidades del sistema <span class="text-color--cta--5">FacturaWeb</span></h2>
                                     <!--<p class="h6-font">Login to the SpaceMax App and use ETH from your Eidoo wallet to buy INT tokens and get hardware rewards.</p>-->
                                 </div>
                                 <!-- end of title -->
                                 <ul class="pl-2 mb-6 text-center text-lg-left reveal">
-                                    <li class="text-color--300 mb-1 list-md-none">
-                                        <p>Emite Factura, Boleta de Venta, Nota de crédito y Débito, Cotizaciones, Guía de Remisión, Detracciones</p>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700">Emite <b>Factura, Boleta de Venta</b>, Nota de crédito y Débito, Cotizaciones, Guía de Remisión, Detracciones</p>
                                     </li>
-                                    <li class="text-color--300 mb-1 list-md-none">
-                                        <p>Facturas electrónicas en formato XML y PDF</p>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700">Visualiza en tiempo real el <b>estado de tus comprobantes en SUNAT</b></p>
                                     </li>
-                                    <li class="text-color--300 mb-1 list-md-none">
-                                        <p>Visualiza en tiempo real el estado de tus comprobantes en SUNAT</p>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700">Compatible con <b>ticketeras</b> y con impresoras en formato <b>A4 y A5</b></p>
                                     </li>
-                                    <li class="text-color--300 mb-1 list-md-none">
-                                        <p>Compatible con ticketeras y con impresoras en formato A4 y A5</p>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700">Envío de comprobantes por <b>Correo y Whatsapp</b></p>
                                     </li>
-                                    <li class="text-color--300 mb-1 list-md-none">
-                                        <p>Envío de comprobantes por Email y Whatsapp</p>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700">Descarga tus Facturas electrónicas en formato <b>XML y PDF</b></p>
                                     </li>
-                                    <li class="text-color--300 mb-1 list-md-none">
-                                        <p>Actualización permanente con los cambios normativos</p>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700"><b>Actualización</b> permanente con los cambios normativos</p>
                                     </li>
                                 </ul>
                                 <!-- end of main content -->
                                 <div class="button-group flex-column flex-sm-row align-items-center reveal">
                                     <div class="d-flex flex-column align-items-center mb-2">
-                                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20servicio%20de%20facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
+                                        <a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20sistema%20de%20facturación" class="btn btn-border btn-border--color--primary btn-border--width--2 color--primary">
                                             <span class="btn__text">Solicita la demo</span>
                                         </a>
                                     </div>
@@ -650,7 +651,7 @@ function url(){
 
                         <div class="col-12 col-lg-6 ml-lg-auto text-center text-lg-right">
                             <p>¡Solicite una demo!</p>
-                            <h3 class="font-size--30 font-w--700 mb-2"><a href="tel:+51991615821" class="color--white" tabindex="0">+51 991615821</a></h3>
+                            <h3 class="font-size--30 font-w--700 mb-2"><a href="https://api.whatsapp.com/send?phone=51991615821&text=Hola,%20me%20interesa%20el%20sistema%20de%20facturación" class="color--white" tabindex="0">+51 991615821</a></h3>
                             <!-- end of social icon -->
                             <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-lg-end remove-space--x">
                                 <li class="mx-2 ml-lg-2"><a href="#" class="body-font color--white">Términos y condiciones</a></li>
