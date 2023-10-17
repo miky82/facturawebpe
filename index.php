@@ -197,6 +197,40 @@ function url(){
 				</div>
 			</div>
 		</section><!-- =========== End of Core Feautes ============ -->
+
+        <!-- =========== Start of Video ============ -->
+        <section class="space--top z-index1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-9 col-lg-6 mb-4 mb-lg-6 mx-auto text-center reveal">
+                        <h2 class="mb-2 h3-font font-w--700">Vea todas las funciones</h2>
+                        <p class="mb-4">Desde subir todos tus productos hasta emitir tus comprobantes. Entérate cómo FacturawebPe hace crecer a tu negocio.</p>
+                    </div>
+                </div>
+                <!-- end of section title row -->
+                <div class="row">
+                    <div class="col-12 col-lg-8 mx-auto">
+                        <div class="position-relative bg-color--white-opacity--05 p-2 p-md-4 rounded--10 box-shadow--1">
+                            <picture><img src="img/media-thumb-4.jpg" alt="media-thumb" class="img-fluid rounded--10">
+                            </picture>
+                            <!-- end of thumb -->
+                            <a class="lightbox pos-abs-bottom-right m-6 m-md-7" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=aI7M0Lh5P1M">
+                                <span class="pos-abs-center opacity--50">
+                                    <img src="img/layout/play-btn-border.svg" alt="play-btn-border" class="svg">
+                                </span>
+                                <span class="btn btn-media btn-media-size--md btn-bg--cta--5 rounded--full"><i class="icon icon-triangle-right"></i></span>
+                            </a>
+                            <!-- end of play btn -->
+                        </div>
+                        <!-- end of video area -->
+                    </div>
+                    <!-- end of video area col -->
+                </div>
+                <!-- end of video area row -->
+            </div>
+        </section>
+        <!-- =========== End of Video ============ -->
+        
 		<!-- =========== Start of Steps ============ -->
 		<section class="space steps--v1 pt-10 bg-color--primary jsElement" data-pull="-100" id="pasos">
 			<div class="container">
