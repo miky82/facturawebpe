@@ -211,7 +211,7 @@ function url(){
                 <div class="row">
                     <div class="col-12 col-lg-8 mx-auto">
                         <div class="position-relative bg-color--white-opacity--05 p-2 p-md-4 rounded--10 box-shadow--1">
-                            <picture><img src="img/media-thumb-4.jpg" alt="media-thumb" class="img-fluid rounded--10">
+                            <picture><img src="img/media-thumb-4.webp" alt="media-thumb" class="img-fluid rounded--10">
                             </picture>
                             <!-- end of thumb -->
                             <a class="lightbox pos-abs-bottom-right m-6 m-md-7" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=aI7M0Lh5P1M">
