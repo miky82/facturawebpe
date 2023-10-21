@@ -202,9 +202,13 @@ function url(){
         <section class="space--top z-index1">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-9 col-lg-6 mb-4 mb-lg-6 mx-auto text-center reveal">
+                    <div class="col-12 col-sm-9 col-lg-6 mb-2 mb-lg-4 mx-auto text-center reveal">
                         <h2 class="mb-2 h3-font font-w--700">Vea todas las funciones</h2>
-                        <p class="mb-4">Desde subir todos tus productos hasta emitir tus comprobantes. Entérate cómo FacturawebPe hace crecer a tu negocio.</p>
+                        <p class="mb-2">Desde subir todos tus productos hasta emitir tus comprobantes. Entérate cómo FacturawebPe hace crecer a tu negocio.</p>
+						<h4 class="mb-1"><b>PRUEBE LA DEMO</b></h4>
+						<span class="mb-1">Ingrese aqui <a href="https://app.facturaweb.pe/" target="_blank">https://app.facturaweb.pe/</a></span><br>
+						<span><b>usuario:</b> mbritojaimes@gmail.com</span><br>
+						<span><b>clave:</b> 123demo123</span>
                     </div>
                 </div>
                 <!-- end of section title row -->
