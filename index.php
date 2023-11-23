@@ -127,9 +127,9 @@ function url(){
                 <div class="row flex-column-reverse flex-lg-row align-items-center mb-10 mb-lg-5 switchable switchable--reverse">
                     <div class="col-12 col-md-10 col-lg-7 mx-auto mx-lg-0 text-center text-lg-left z-index3">
                         <div class="hero-content reveal">
-                            <h1 class="hero__title color--white h2-font font-w--700 mb-2">Faturación Electrónica<br>
+                            <h1 class="hero__title color--white h1-font font-w--700 mb-2">Faturación Electrónica<br>
                             para tu negocio</h1>
-                            <p class="hero__description color--white opacity--80 font-size--18 mb-4 mb-lg-5">Con FacturaWeb podrás emitir facturas y otros comprobantes de pago electrónicos de forma rápida, fácil y segura que te exige la SUNAT-Perú desde cualquier parte del mundo. Además podrás administrar los precios de tus productos.</p><!-- end of text content -->
+                            <p class="hero__description color--white opacity--80 font-size--18 mb-2">¡Cumple con la SUNAT de forma fácil y rápida con FacturaWeb!</p>
                         </div>
                     </div><!-- end of col -->
                     <div class="col-12 col-lg-5 pt-6 pt-lg-1 hero__image z-index3 reveal text-sm-center">
@@ -146,7 +146,7 @@ function url(){
                     <div class="row">
                         <div class="col-12 col-sm-9 col-lg-10 mb-4 mb-lg-4 mx-auto text-center reveal">
                             <h2 class="mb-2 h3-font font-w--700">
-                                <span class="text-color--cta--5">Beneficios</span> del sistema FacturaWeb
+                                <span class="text-color--cta--5">Beneficios</span> de FacturaWeb
                             </h2>
                             <a class="btn btn-size--md btn-bg--cta--5 btn-hover--3d" href="https://app.facturaweb.pe/signup">
                                 <span class="btn__text">Crea tu cuenta gratis</span>
@@ -156,36 +156,36 @@ function url(){
                     <div class="row justify-content-between border--bottom mb-3 pb-lg-1 text-lg-left">
                         <div class="col-12 col-md-6 col-xl-5 pb-4 reveal">
                             <span class="mb-2"><img alt="exchange-icon" src="img/exchange-01.svg"></span>
-                            <h3 class="h5-font font-w--500 mb-1">Protección de datos</h3>
-                            <p>Tus comprobantes electrónicos emitidos se encontrarán garantizados y asegurados.</p>
+                            <h3 class="h5-font font-w--500 mb-1">Cumplimiento con la SUNAT</h3>
+                            <p>Emite facturas, boletas, guías y más, desde cualquier lugar, en tiempo real y con todas las especificaciones legales con FacturaWeb.</p>
                         </div><!-- end of single item col -->
                         <div class="col-12 col-md-6 col-xl-5 pb-4 reveal">
                             <span class="mb-2"><img alt="exchange-icon" src="img/exchange-02.svg"></span>
-                            <h3 class="h5-font font-w--500 mb-1">Precios accesibles</h3>
-                            <p>¡Inicia GRATIS hasta fin de mes! Luego elige cómodos pagos mensuales o pago anual.</p>
+                            <h3 class="h5-font font-w--500 mb-1">¡Precios accesibles para todos!</h3>
+                            <p>Inicia GRATIS y luego elige uno de nuestros planes de pago mensuales o anuales. Además, podrás enviar tus comprobantes por WhatsApp a tus clientes y crear más locales.</p>
                         </div><!-- end of single item col -->
                         <div class="col-12 col-md-6 col-xl-5 pb-4 reveal">
                             <span class="mb-2"><img alt="exchange-icon" src="img/exchange-03.svg"></span>
                             <h3 class="h5-font font-w--500 mb-1">Personaliza tus comprobantes</h3>
-                            <p>Emite los comprobantes con tu logo y configurados de acuerdo a tu negocio.</p>
+                            <p>Lista tus precios y tus ventas con facilidad desde cualquier dispositivo. Imprime tus comprobantes con tu propio logo y configurados de acuerdo a tu negocio.</p>
                         </div><!-- end of single item col -->
                         <div class="col-12 col-md-6 col-xl-5 pb-4 reveal">
                             <span class="mb-2"><img alt="exchange-icon" src="img/exchange-04.svg"></span>
-                            <h3 class="h5-font font-w--500 mb-1">Garantía y soporte técnico incluido</h3>
-                            <p>Soporte técnico disponible y actualizaciones de versiones de nuestros productos.</p>
+                            <h3 class="h5-font font-w--500 mb-1">¡Tu tranquilidad está garantizada!</h3>
+                            <p>Si tienes algún problema con tu suscripción, nuestro equipo de soporte técnico estará disponible para ayudarte. Además, te mantendremos al día con las últimas actualizaciones del sistema.</p>
                         </div><!-- end of single item col -->
                     </div><!-- end of features row -->
                     <div class="row justify-content-between reveal">
                         <div class="col-12 col-md-4 text-center mb-2">
-                            <span class="font-size--48 color--primary">500+</span>
+                            <span class="font-size--48 color--primary">520+</span>
                             <p>Clientes satisfechos</p>
                         </div><!-- end of single item col -->
                         <div class="col-12 col-md-4 text-center mb-2">
-                            <span class="font-size--48 color--primary">10,000+</span>
+                            <span class="font-size--48 color--primary">10,100+</span>
                             <p>comprobantes emitidos</p>
                         </div><!-- end of single item col -->
                         <div class="col-12 col-md-4 text-center mb-2">
-                            <span class="font-size--48 color--primary">2,500+</span>
+                            <span class="font-size--48 color--primary">2,590+</span>
                             <p>Horas de soporte</p>
                         </div><!-- end of single item col -->
                     </div><!-- end of facts row -->
@@ -197,14 +197,14 @@ function url(){
         <section class="space--top z-index1" id="demo">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-9 col-lg-6 mb-2 mb-lg-4 mx-auto text-center reveal">
-                        <h2 class="mb-2 h3-font font-w--700">¿Cómo se usa?</h2>
-                        <p class="mb-2">Entérate cómo FacturawebPe hace crecer a tu negocio.</p>
-                        <h4 class="mb-1"><b>PRUEBE LA DEMO</b></h4>
+                    <div class="col-12 col-sm-9 col-lg-10 mb-2 mb-lg-4 mx-auto text-center reveal">
+                        <h2 class="mb-2 h3-font font-w--700">¡FacturaWeb, la solución de facturación electrónica que te lo pone fácil!</h2>
+                        <p class="mb-2">¡Prueba la demo hoy y descubre por qué es la mejor opción para tu negocio!</p>
+                        <h4 class="mb-1"><b>Haz clic aquí para acceder a la demo:</b></h4>
                         <span class="mb-1">
-                            <b>Ingrese aquí <a href="https://app.facturaweb.pe" target="_blank">https://app.facturaweb.pe</a></b>
+                            <b class="btn btn-size--sm btn-bg--cta--1 d-md-inline-flex"><a href="https://app.facturaweb.pe" target="_blank">https://app.facturaweb.pe</a></b>
                         </span><br>
-                        <span><b>usuario:</b> mbritojaimes@gmail.com</span><br>
+                        <span><b>usuario:</b> pruebademo@gmail.com</span><br>
                         <span><b>clave:</b> 123demo123</span>
                     </div>
                 </div>
@@ -239,7 +239,7 @@ function url(){
                     <div class="col-12 col-md-5 col-xl-4 offset-xl-1 mb-5 mb-lg-0 reveal">
                         <div>
                             <h2 class="h3-font font-w--700 mb-2">Empieza a facturar con estos simples pasos</h2>
-                            <p class="opacity--60">Emite comprobantes electrónicos con nuestro sistema en línea de forma inmediata.</p>
+                            <p class="opacity--60">Emite comprobantes electrónicos con nuestro sistema y envía a SUNAT de forma inmediata.</p>
                         </div>
                         <div class="ml-lg-10 d-none d-md-inline-block"><img alt="arrow" class="svg svg-shape--default opacity--10" src="img/layout/steps-arrow.svg"></div>
                     </div><!-- end of section title -->
@@ -255,20 +255,20 @@ function url(){
                         </div><!-- end of single step -->
                         <div class="step position-relative d-flex align-items-start pb-6 reveal">
                             <div class="mr-3 mr-md-4">
-                                <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle"><img alt="icon" src="img/exchange-06.svg"></span>
+                                <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle"><img alt="icon" src="img/exchange-07.svg"></span>
                             </div><!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">Personaliza tu negocio</h3>
-                                <p class="opacity--80">Sube tu logo para que aparezca en tus comprobantes y configúralo de acuerdo al rubro de tu negocio.</p>
+                                <p class="opacity--80">Envía tu logo para que aparezca en tus comprobantes y configúralo con SUNAT.</p>
                             </div><!-- end of content -->
                         </div><!-- end of single step -->
                         <div class="step position-relative d-flex align-items-start pb-6 reveal">
                             <div class="mr-3 mr-md-4">
-                                <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle"><img alt="icon" src="img/exchange-07.svg"></span>
+                                <span class="icon--lg step__icon bg-color--white-opacity--05 box-shadow--1 rounded-circle"><img alt="icon" src="img/exchange-06.svg"></span>
                             </div><!-- end of icon -->
                             <div class="position-relative">
                                 <h3 class="h4-font font-w--600 mb-1 step__title">¡Emite tu comprobante!</h3>
-                                <p class="opacity--80">Ya puedes emitir tus comprobantes de pago a la SUNAT validando el envío de forma rápida y segura. Generando reportes para tu negocio.</p>
+                                <p class="opacity--80">Ya puedes emitir tus comprobantes de pago validando el envío de forma rápida y segura.</p>
                             </div><!-- end of content -->
                         </div><!-- end of single step -->
                     </div>
@@ -278,7 +278,7 @@ function url(){
         <!-- =========== Start of Benefits and CTA ============ -->
         <section class="space steps--v1 pt-10 bg-color--primary-light--1" id="funcionalidades">
             <!-- end of benefits area -->
-            <div class="switchable pt-4 d-lg-flex align-items-md-center">
+            <div class="switchable pt-2 d-lg-flex align-items-md-center">
                 <div class="col-12 col-lg-6 mb-40 mb-lg-0 text-center mb-3 reveal">
                     <picture class="switchable__image"><img alt="image" class="img-fluid" src="img/166_a.png"></picture>
                 </div><!-- end of device image -->
@@ -287,28 +287,31 @@ function url(){
                         <div class="row">
                             <div class="col-12 ml-md-auto">
                                 <div class="mb-4 text-center text-lg-left reveal">
-                                    <h2 class="h3-font font-w--700 mb-2">Funcionalidades del sistema
-                                        <span class="text-color--cta--5">FacturaWeb</span>
+                                    <h2 class="h3-font font-w--700 mb-2">Con
+                                        <span class="text-color--cta--5">FacturaWeb</span>, podrás:
                                     </h2>
                                 </div><!-- end of title -->
                                 <ul class="pl-2 mb-6 text-center text-lg-left reveal">
                                     <li class="mb-1 list-md-none">
-                                        <p class="text-color--700">Emite <b>Factura, Boleta de Venta</b>, Nota de crédito y Débito, Guías, Detracciones</p>
+                                        <p class="text-color--700">Emitir <b>comprobantes de pago electrónicos</b> de forma automática, sin tener que preocuparte por las especificaciones legales</p>
                                     </li>
                                     <li class="mb-1 list-md-none">
-                                        <p class="text-color--700">Visualiza en tiempo real el <b>estado de tus comprobantes en SUNAT</b></p>
+                                        <p class="text-color--700">Visualizar en tiempo real el <b>estado de tus comprobantes en SUNAT</b></p>
                                     </li>
                                     <li class="mb-1 list-md-none">
-                                        <p class="text-color--700">Compatible con <b>ticketeras</b> y con impresoras en formato <b>A4 y A5</b></p>
+                                        <p class="text-color--700">Enviar tus comprobantes de pago electrónicos a tus clientes de forma segura y rápida por <b>Correo y Whatsapp</b>.</p>
                                     </li>
                                     <li class="mb-1 list-md-none">
-                                        <p class="text-color--700">Envío de comprobantes por <b>Correo y Whatsapp</b></p>
+                                        <p class="text-color--700">Almacenar tus comprobantes de forma segura y ordenada</p>
                                     </li>
                                     <li class="mb-1 list-md-none">
-                                        <p class="text-color--700">Descarga tus Facturas electrónicas en formato <b>XML y PDF</b></p>
+                                        <p class="text-color--700">Descargar tus comprobantes en formato <b>XML y PDF</b></p>
                                     </li>
                                     <li class="mb-1 list-md-none">
-                                        <p class="text-color--700"><b>Actualización</b> permanente con los cambios normativos</p>
+                                        <p class="text-color--700">Mantenerte <b>actualizado</b> con los cambios normativos</p>
+                                    </li>
+                                    <li class="mb-1 list-md-none">
+                                        <p class="text-color--700">Imprimir en <b>ticketeras</b> y además en formato <b>A4 y A5</b></p>
                                     </li>
                                 </ul><!-- end of main content -->
                                 <div class="button-group flex-column flex-sm-row align-items-center reveal">
