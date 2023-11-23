@@ -474,7 +474,7 @@ function url(){
                                     <button aria-controls="collapse9" aria-expanded="false" class="btn btn-header btn-link collapsed bg-white" data-target="#collapse9" data-toggle="collapse" type="button"><span class="font-size--18 text-color--700 font-w--500">¿Cuál es el precio del sistema?</span> <i class="icon icon-up-arrow"></i></button>
                                     <div class="collapse" data-parent="#accordion2" id="collapse9">
                                         <div class="card-body bg-white pl-3">
-                                            <p>Contamos con el plan mensual de S/ 20.00 y un plan anual de S/ 240.00, configurados de acuerdo a las necesidades de su empresa.</p>
+                                            <p>Contamos con el plan mensual de S/ 30.00 y un plan anual de S/ 350.00, configurados de acuerdo a las necesidades de su empresa.</p>
                                         </div>
                                     </div>
                                 </div><!-- end of single accordion-->
