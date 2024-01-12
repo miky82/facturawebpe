@@ -92,7 +92,7 @@ function url(){
         <!-- =========== Start of Navigation (main menu) ============ -->
         <header class="navbar navbar-sticky sticky-bg-color--primary navbar-expand-lg navbar-dark">
             <div class="container position-relative">
-                <a class="navbar-brand" href="%3C?php%20echo%20url();%20?%3E"><img alt="brand-logo" class="navbar-brand__regular" src="img/brand-logo-white.png"> <img alt="sticky brand-logo" class="navbar-brand__sticky" src="img/brand-logo-white.png"></a> <!--  End of brand logo -->
+                <a class="navbar-brand" href="<?php echo url(); ?>"><img alt="brand-logo" class="navbar-brand__regular" src="img/brand-logo-white.png"> <img alt="sticky brand-logo" class="navbar-brand__sticky" src="img/brand-logo-white.png"></a> <!--  End of brand logo -->
                  <button aria-label="Toggle navigation" class="navbar-toggler d-lg-none" data-toggle="navbarToggler" type="button"><span class="navbar-toggler-icon"></span></button> <!-- end of Nav toggler -->
                 <div class="navbar-inner">
                     <!--  Nav close button inside off-canvas/ mobile menu -->
